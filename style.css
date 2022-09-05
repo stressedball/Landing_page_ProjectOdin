@@ -46,13 +46,22 @@ body {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .block.quote_author {
     flex: 0;
     font-weight: bolder;
     list-style:circle;
-
+    align-self: flex-end;
+    display: flex;
+    justify-items: flex-start;
+    font-size: 24px;
+    padding-top: 0px;
+    margin-top: 0;
 }
 
 .block.right {
@@ -132,8 +141,10 @@ body {
 .container.three {
     flex-direction: column;
     background-color: #E5E7EB;
-    padding-left: 380px;
-    padding-right: 380px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    gap: 10px;
 }
 
 .container.four {
@@ -148,6 +159,9 @@ body {
     color: white;
     border: solid;
     border-color:  #3882F6;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .horror-squares {
